@@ -1,0 +1,20 @@
+[0.073s] Invoking command in '/home/hv/tiago_public_ws/build/tiago_2dnav': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_2dnav:/home/hv/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_2dnav:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble PYTHONPATH=/home/hv/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hv/tiago_public_ws/build/tiago_2dnav -- -j16 -l16
+[0.138s] Invoked command in '/home/hv/tiago_public_ws/build/tiago_2dnav' returned '0': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_2dnav:/home/hv/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_2dnav:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble PYTHONPATH=/home/hv/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hv/tiago_public_ws/build/tiago_2dnav -- -j16 -l16
+[0.169s] Invoking command in '/home/hv/tiago_public_ws/build/tiago_2dnav': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_2dnav:/home/hv/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_2dnav:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble PYTHONPATH=/home/hv/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hv/tiago_public_ws/build/tiago_2dnav
+[0.182s] -- Install configuration: ""
+[0.182s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/ament_index/resource_index/package_run_dependencies/tiago_2dnav
+[0.182s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/ament_index/resource_index/parent_prefix_path/tiago_2dnav
+[0.182s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/environment/ament_prefix_path.sh
+[0.183s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/environment/ament_prefix_path.dsv
+[0.183s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/environment/path.sh
+[0.183s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/environment/path.dsv
+[0.183s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/local_setup.bash
+[0.184s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/local_setup.sh
+[0.185s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/local_setup.zsh
+[0.186s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/local_setup.dsv
+[0.186s] -- Installing: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/package.dsv
+[0.186s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/ament_index/resource_index/packages/tiago_2dnav
+[0.186s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/cmake/tiago_2dnavConfig.cmake
+[0.186s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/cmake/tiago_2dnavConfig-version.cmake
+[0.186s] -- Up-to-date: /home/hv/tiago_public_ws/install/tiago_2dnav/share/tiago_2dnav/package.xml
+[0.199s] Invoked command in '/home/hv/tiago_public_ws/build/tiago_2dnav' returned '0': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_2dnav:/home/hv/tiago_public_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_2dnav:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble PYTHONPATH=/home/hv/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hv/tiago_public_ws/build/tiago_2dnav

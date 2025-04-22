@@ -1,0 +1,8 @@
+Built target ament_cmake_python_copy_urdf_test
+running egg_info
+writing urdf_test.egg-info/PKG-INFO
+writing dependency_links to urdf_test.egg-info/dependency_links.txt
+writing top-level names to urdf_test.egg-info/top_level.txt
+reading manifest file 'urdf_test.egg-info/SOURCES.txt'
+writing manifest file 'urdf_test.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_urdf_test_egg

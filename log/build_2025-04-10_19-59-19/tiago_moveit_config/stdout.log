@@ -1,0 +1,113 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hv/tiago_public_ws/build/tiago_moveit_config
+-- Install configuration: ""
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/ament_index/resource_index/package_run_dependencies/tiago_moveit_config
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/ament_index/resource_index/parent_prefix_path/tiago_moveit_config
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/environment/path.sh
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/environment/path.dsv
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/local_setup.bash
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/local_setup.sh
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/local_setup.zsh
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/local_setup.dsv
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/package.dsv
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/ament_index/resource_index/packages/tiago_moveit_config
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/cmake/tiago_moveit_configConfig.cmake
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/cmake/tiago_moveit_configConfig-version.cmake
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/package.xml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/launch
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/launch/move_group.launch.py
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/launch/moveit_rviz.launch.py
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/joint_limits.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/sensors_3d.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/tiago.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/scripts
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/scripts/update.sh
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/no-ee.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/custom_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_robotiq-2f-85_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_pal-hey5.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_custom.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_no-arm.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_robotiq-2f-140.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_no-ee_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_robotiq-2f-85_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_custom_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_pal-hey5.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_pal-gripper.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_robotiq-2f-140_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_no-ee.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/pal-gripper_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/no-ee_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/robotiq-2f-85_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/custom.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/robotiq-2f-140_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_no-ee_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_pal-hey5_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_robotiq-2f-140_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_pal-gripper_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_no-arm.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_pal-gripper_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_custom.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_robotiq-2f-85.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_no-ee.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_robotiq-2f-140.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_robotiq-2f-85.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/pal-hey5.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/robotiq-2f-140.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_pal-hey5_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_custom_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/tiago_omni_pal-gripper.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/pal-gripper.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/pal-hey5_schunk-ft.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/disable_collisions/robotiq-2f-85.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/no-end-effector.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/custom.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/pal-hey5.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/robotiq-2f-140.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/shared
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/shared/robotiq-2f.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/pal-gripper.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/srdf/end_effectors/robotiq-2f-85.srdf.xacro
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/kinematics_kdl.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/rviz
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/rviz/moveit.rviz
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/ompl_planning.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/kinematics_trac_ik.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_pal-gripper.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_robotiq-epick.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_robotiq-2f-85.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_no-ee.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers.yaml.em
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_pal-hey5.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_custom.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_no-arm.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/controllers/controllers_robotiq-2f-140.yaml
+-- Installing: /home/hv/tiago_public_ws/install/tiago_moveit_config/share/tiago_moveit_config/config/pilz_cartesian_limits.yaml

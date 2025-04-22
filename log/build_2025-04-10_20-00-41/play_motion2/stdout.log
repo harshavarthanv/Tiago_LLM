@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target play_motion2[0m
+[  4%] Built target passthrough_controller_parameters
+[ 12%] Built target gtest
+[ 20%] Built target gtest_main
+[ 36%] Built target play_motion2
+[ 40%] [32mBuilding CXX object CMakeFiles/passthrough_controller.dir/test/controllers/src/passthrough_controller.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/play_motion2_node_test.dir/test/play_motion2_node_test.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/client.dir/src/play_motion2/client.cpp.o[0m
+[ 52%] [32m[1mLinking CXX static library libclient.a[0m
+[ 52%] Built target client
+[ 56%] [32m[1mLinking CXX executable play_motion2_node_test[0m
+[ 56%] Built target play_motion2_node_test

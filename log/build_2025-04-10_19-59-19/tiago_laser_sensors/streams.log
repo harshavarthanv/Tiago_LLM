@@ -1,0 +1,42 @@
+[0.078s] Invoking command in '/home/hv/tiago_public_ws/build/tiago_laser_sensors': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble /usr/bin/cmake /home/hv/tiago_public_ws/src/tiago_navigation/tiago_laser_sensors -DCMAKE_INSTALL_PREFIX=/home/hv/tiago_public_ws/install/tiago_laser_sensors
+[0.144s] -- The C compiler identification is GNU 11.4.0
+[0.213s] -- The CXX compiler identification is GNU 11.4.0
+[0.222s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.305s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.305s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.396s] -- Detecting CXX compiler ABI info - done
+[0.407s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.407s] -- Detecting CXX compile features
+[0.408s] -- Detecting CXX compile features - done
+[0.412s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.815s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.816s] -- Added test 'lint_cmake' to check CMake code style
+[0.817s] -- Added test 'xmllint' to check XML markup files
+[0.819s] -- Configuring done
+[0.822s] -- Generating done
+[0.823s] -- Build files have been written to: /home/hv/tiago_public_ws/build/tiago_laser_sensors
+[0.828s] Invoked command in '/home/hv/tiago_public_ws/build/tiago_laser_sensors' returned '0': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble /usr/bin/cmake /home/hv/tiago_public_ws/src/tiago_navigation/tiago_laser_sensors -DCMAKE_INSTALL_PREFIX=/home/hv/tiago_public_ws/install/tiago_laser_sensors
+[0.831s] Invoking command in '/home/hv/tiago_public_ws/build/tiago_laser_sensors': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble /usr/bin/cmake --build /home/hv/tiago_public_ws/build/tiago_laser_sensors -- -j16 -l16
+[0.873s] Invoked command in '/home/hv/tiago_public_ws/build/tiago_laser_sensors' returned '0': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble /usr/bin/cmake --build /home/hv/tiago_public_ws/build/tiago_laser_sensors -- -j16 -l16
+[0.907s] Invoking command in '/home/hv/tiago_public_ws/build/tiago_laser_sensors': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble /usr/bin/cmake --install /home/hv/tiago_public_ws/build/tiago_laser_sensors
+[0.917s] -- Install configuration: ""
+[0.917s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/ament_index/resource_index/package_run_dependencies/tiago_laser_sensors
+[0.917s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/ament_index/resource_index/parent_prefix_path/tiago_laser_sensors
+[0.917s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/ament_prefix_path.sh
+[0.917s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/ament_prefix_path.dsv
+[0.917s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/path.sh
+[0.917s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/path.dsv
+[0.917s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.bash
+[0.917s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.sh
+[0.918s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.zsh
+[0.918s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.dsv
+[0.920s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/package.dsv
+[0.920s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/ament_index/resource_index/packages/tiago_laser_sensors
+[0.920s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig.cmake
+[0.920s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig-version.cmake
+[0.921s] -- Installing: /home/hv/tiago_public_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/package.xml
+[0.947s] Invoked command in '/home/hv/tiago_public_ws/build/tiago_laser_sensors' returned '0': AMENT_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hv/tiago_public_ws/install/pmb2_laser_sensors:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble /usr/bin/cmake --install /home/hv/tiago_public_ws/build/tiago_laser_sensors

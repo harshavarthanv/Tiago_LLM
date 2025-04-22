@@ -1,0 +1,12 @@
+{
+  "package_name": "play_motion2_msgs",
+  "non_idl_tuples": [
+    "/home/hv/tiago_public_ws/src/play_motion2/play_motion2_msgs:action/PlayMotion2.action",
+    "/home/hv/tiago_public_ws/src/play_motion2/play_motion2_msgs:msg/Motion.msg",
+    "/home/hv/tiago_public_ws/src/play_motion2/play_motion2_msgs:srv/AddMotion.srv",
+    "/home/hv/tiago_public_ws/src/play_motion2/play_motion2_msgs:srv/GetMotionInfo.srv",
+    "/home/hv/tiago_public_ws/src/play_motion2/play_motion2_msgs:srv/IsMotionReady.srv",
+    "/home/hv/tiago_public_ws/src/play_motion2/play_motion2_msgs:srv/ListMotions.srv",
+    "/home/hv/tiago_public_ws/src/play_motion2/play_motion2_msgs:srv/RemoveMotion.srv"
+  ]
+}

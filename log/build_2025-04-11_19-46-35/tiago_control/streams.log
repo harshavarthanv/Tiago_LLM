@@ -1,0 +1,36 @@
+[1.379s] Invoking command in '/home/hv/tiago_public_ws/src/tiago_control': PYTHONPATH=/home/hv/tiago_public_ws/build/tiago_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hv/tiago_public_ws/install/tiago_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tiago_control build --build-base /home/hv/tiago_public_ws/build/tiago_control/build install --record /home/hv/tiago_public_ws/build/tiago_control/install.log --single-version-externally-managed install_data
+[1.731s] running egg_info
+[1.732s] creating ../../build/tiago_control/tiago_control.egg-info
+[1.732s] writing ../../build/tiago_control/tiago_control.egg-info/PKG-INFO
+[1.733s] writing dependency_links to ../../build/tiago_control/tiago_control.egg-info/dependency_links.txt
+[1.733s] writing entry points to ../../build/tiago_control/tiago_control.egg-info/entry_points.txt
+[1.733s] writing requirements to ../../build/tiago_control/tiago_control.egg-info/requires.txt
+[1.733s] writing top-level names to ../../build/tiago_control/tiago_control.egg-info/top_level.txt
+[1.733s] writing manifest file '../../build/tiago_control/tiago_control.egg-info/SOURCES.txt'
+[1.735s] reading manifest file '../../build/tiago_control/tiago_control.egg-info/SOURCES.txt'
+[1.736s] writing manifest file '../../build/tiago_control/tiago_control.egg-info/SOURCES.txt'
+[1.736s] running build
+[1.736s] running build_py
+[1.736s] creating /home/hv/tiago_public_ws/build/tiago_control/build
+[1.736s] creating /home/hv/tiago_public_ws/build/tiago_control/build/lib
+[1.736s] creating /home/hv/tiago_public_ws/build/tiago_control/build/lib/tiago_control
+[1.736s] copying tiago_control/__init__.py -> /home/hv/tiago_public_ws/build/tiago_control/build/lib/tiago_control
+[1.736s] copying tiago_control/move_tiago_arm.py -> /home/hv/tiago_public_ws/build/tiago_control/build/lib/tiago_control
+[1.737s] running install
+[1.737s] running install_lib
+[1.738s] creating /home/hv/tiago_public_ws/install/tiago_control/lib/python3.10/site-packages/tiago_control
+[1.738s] copying /home/hv/tiago_public_ws/build/tiago_control/build/lib/tiago_control/__init__.py -> /home/hv/tiago_public_ws/install/tiago_control/lib/python3.10/site-packages/tiago_control
+[1.738s] copying /home/hv/tiago_public_ws/build/tiago_control/build/lib/tiago_control/move_tiago_arm.py -> /home/hv/tiago_public_ws/install/tiago_control/lib/python3.10/site-packages/tiago_control
+[1.739s] byte-compiling /home/hv/tiago_public_ws/install/tiago_control/lib/python3.10/site-packages/tiago_control/__init__.py to __init__.cpython-310.pyc
+[1.739s] byte-compiling /home/hv/tiago_public_ws/install/tiago_control/lib/python3.10/site-packages/tiago_control/move_tiago_arm.py to move_tiago_arm.cpython-310.pyc
+[1.739s] running install_data
+[1.740s] creating /home/hv/tiago_public_ws/install/tiago_control/share/ament_index
+[1.740s] creating /home/hv/tiago_public_ws/install/tiago_control/share/ament_index/resource_index
+[1.740s] creating /home/hv/tiago_public_ws/install/tiago_control/share/ament_index/resource_index/packages
+[1.740s] copying resource/tiago_control -> /home/hv/tiago_public_ws/install/tiago_control/share/ament_index/resource_index/packages
+[1.740s] copying package.xml -> /home/hv/tiago_public_ws/install/tiago_control/share/tiago_control
+[1.740s] running install_egg_info
+[1.742s] Copying ../../build/tiago_control/tiago_control.egg-info to /home/hv/tiago_public_ws/install/tiago_control/lib/python3.10/site-packages/tiago_control-0.0.0-py3.10.egg-info
+[1.743s] running install_scripts
+[1.765s] writing list of installed files to '/home/hv/tiago_public_ws/build/tiago_control/install.log'
+[1.800s] Invoked command in '/home/hv/tiago_public_ws/src/tiago_control' returned '0': PYTHONPATH=/home/hv/tiago_public_ws/build/tiago_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hv/tiago_public_ws/install/tiago_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tiago_control build --build-base /home/hv/tiago_public_ws/build/tiago_control/build install --record /home/hv/tiago_public_ws/build/tiago_control/install.log --single-version-externally-managed install_data

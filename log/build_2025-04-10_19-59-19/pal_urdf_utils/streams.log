@@ -1,0 +1,47 @@
+[0.293s] Invoking command in '/home/hv/tiago_public_ws/build/pal_urdf_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hv/tiago_public_ws/src/pal_urdf_utils -DCMAKE_INSTALL_PREFIX=/home/hv/tiago_public_ws/install/pal_urdf_utils
+[0.404s] -- The C compiler identification is GNU 11.4.0
+[0.487s] -- The CXX compiler identification is GNU 11.4.0
+[0.499s] -- Detecting C compiler ABI info
+[0.599s] -- Detecting C compiler ABI info - done
+[0.608s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.609s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.613s] -- Detecting CXX compiler ABI info
+[0.722s] -- Detecting CXX compiler ABI info - done
+[0.731s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.732s] -- Detecting CXX compile features
+[0.732s] -- Detecting CXX compile features - done
+[0.736s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.964s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.203s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.239s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.253s] -- Added test 'lint_cmake' to check CMake code style
+[1.256s] -- Added test 'xmllint' to check XML markup files
+[1.258s] -- Configuring done
+[1.263s] -- Generating done
+[1.267s] -- Build files have been written to: /home/hv/tiago_public_ws/build/pal_urdf_utils
+[1.283s] Invoked command in '/home/hv/tiago_public_ws/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hv/tiago_public_ws/src/pal_urdf_utils -DCMAKE_INSTALL_PREFIX=/home/hv/tiago_public_ws/install/pal_urdf_utils
+[1.286s] Invoking command in '/home/hv/tiago_public_ws/build/pal_urdf_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hv/tiago_public_ws/build/pal_urdf_utils -- -j16 -l16
+[1.353s] Invoked command in '/home/hv/tiago_public_ws/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hv/tiago_public_ws/build/pal_urdf_utils -- -j16 -l16
+[1.441s] Invoking command in '/home/hv/tiago_public_ws/build/pal_urdf_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hv/tiago_public_ws/build/pal_urdf_utils
+[1.451s] -- Install configuration: ""
+[1.451s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf
+[1.452s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/deg_to_rad.urdf.xacro
+[1.452s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/materials.urdf.xacro
+[1.452s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/urdf/pi.urdf.xacro
+[1.453s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/ament_index/resource_index/package_run_dependencies/pal_urdf_utils
+[1.453s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/ament_index/resource_index/parent_prefix_path/pal_urdf_utils
+[1.453s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.sh
+[1.453s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.dsv
+[1.454s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.sh
+[1.454s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.dsv
+[1.454s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.bash
+[1.454s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.sh
+[1.454s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.zsh
+[1.454s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.dsv
+[1.455s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/package.dsv
+[1.455s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/ament_index/resource_index/packages/pal_urdf_utils
+[1.455s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig.cmake
+[1.456s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig-version.cmake
+[1.456s] -- Installing: /home/hv/tiago_public_ws/install/pal_urdf_utils/share/pal_urdf_utils/package.xml
+[1.533s] Invoked command in '/home/hv/tiago_public_ws/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hv/tiago_public_ws/build/pal_urdf_utils

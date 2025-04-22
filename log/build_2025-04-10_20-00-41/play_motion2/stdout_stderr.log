@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target play_motion2[0m
+[  4%] Built target passthrough_controller_parameters
+[ 12%] Built target gtest
+[ 20%] Built target gtest_main
+[ 36%] Built target play_motion2
+[ 40%] [32mBuilding CXX object CMakeFiles/passthrough_controller.dir/test/controllers/src/passthrough_controller.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/play_motion2_node_test.dir/test/play_motion2_node_test.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/client.dir/src/play_motion2/client.cpp.o[0m
+In file included from [01m[K/home/hv/tiago_public_ws/src/play_motion2/play_motion2/test/controllers/src/passthrough_controller.cpp:15[m[K:
+[01m[K/home/hv/tiago_public_ws/src/play_motion2/play_motion2/test/controllers/src/passthrough_controller.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Kplay_motion2/passthrough_controller_parameters.hpp: No such file or directory
+   28 | #include [01;31m[K"play_motion2/passthrough_controller_parameters.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/passthrough_controller.dir/build.make:76: CMakeFiles/passthrough_controller.dir/test/controllers/src/passthrough_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:332: CMakeFiles/passthrough_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 52%] [32m[1mLinking CXX static library libclient.a[0m
+[ 52%] Built target client
+[ 56%] [32m[1mLinking CXX executable play_motion2_node_test[0m
+[ 56%] Built target play_motion2_node_test
+gmake: *** [Makefile:146: all] Error 2

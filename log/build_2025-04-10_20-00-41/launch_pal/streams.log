@@ -1,0 +1,21 @@
+[0.726s] Invoking command in '/home/hv/tiago_public_ws/src/launch_pal': PYTHONPATH=/home/hv/tiago_public_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hv/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_pal build --build-base /home/hv/tiago_public_ws/build/launch_pal/build install --record /home/hv/tiago_public_ws/build/launch_pal/install.log --single-version-externally-managed install_data
+[0.962s] running egg_info
+[0.962s] writing ../../build/launch_pal/launch_pal.egg-info/PKG-INFO
+[0.963s] writing dependency_links to ../../build/launch_pal/launch_pal.egg-info/dependency_links.txt
+[0.963s] writing entry points to ../../build/launch_pal/launch_pal.egg-info/entry_points.txt
+[0.963s] writing requirements to ../../build/launch_pal/launch_pal.egg-info/requires.txt
+[0.963s] writing top-level names to ../../build/launch_pal/launch_pal.egg-info/top_level.txt
+[0.967s] reading manifest file '../../build/launch_pal/launch_pal.egg-info/SOURCES.txt'
+[0.969s] adding license file 'LICENSE'
+[0.970s] writing manifest file '../../build/launch_pal/launch_pal.egg-info/SOURCES.txt'
+[0.971s] running build
+[0.971s] running build_py
+[0.972s] running install
+[0.972s] running install_lib
+[0.974s] running install_data
+[0.974s] running install_egg_info
+[0.975s] removing '/home/hv/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal-0.12.1-py3.10.egg-info' (and everything under it)
+[0.975s] Copying ../../build/launch_pal/launch_pal.egg-info to /home/hv/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal-0.12.1-py3.10.egg-info
+[0.976s] running install_scripts
+[0.993s] writing list of installed files to '/home/hv/tiago_public_ws/build/launch_pal/install.log'
+[1.023s] Invoked command in '/home/hv/tiago_public_ws/src/launch_pal' returned '0': PYTHONPATH=/home/hv/tiago_public_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hv/tiago_public_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_pal build --build-base /home/hv/tiago_public_ws/build/launch_pal/build install --record /home/hv/tiago_public_ws/build/launch_pal/install.log --single-version-externally-managed install_data

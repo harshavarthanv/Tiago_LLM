@@ -1,0 +1,9 @@
+[0.403s] Invoking command in '/home/hv/tiago_public_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hv/tiago_public_ws/install/tiago_control:/home/hv/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /home/hv/tiago_public_ws/build/urdf_test -- -j16 -l16
+[0.473s] Built target ament_cmake_python_copy_urdf_test
+[0.758s] running egg_info
+[0.758s] writing urdf_test.egg-info/PKG-INFO
+[0.759s] writing dependency_links to urdf_test.egg-info/dependency_links.txt
+[0.759s] writing top-level names to urdf_test.egg-info/top_level.txt
+[0.761s] reading manifest file 'urdf_test.egg-info/SOURCES.txt'
+[0.762s] writing manifest file 'urdf_test.egg-info/SOURCES.txt'
+[0.802s] Built target ament_cmake_python_build_urdf_test_egg

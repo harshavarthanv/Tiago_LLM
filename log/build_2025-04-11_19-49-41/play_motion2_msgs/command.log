@@ -1,0 +1,1 @@
+Invoking command in '/home/hv/tiago_public_ws/build/play_motion2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hv/tiago_public_ws/install/tiago_control:/home/hv/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /home/hv/tiago_public_ws/build/play_motion2_msgs -- -j16 -l16

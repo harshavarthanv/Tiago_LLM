@@ -1,0 +1,408 @@
+[0.000000] (-) TimerEvent: {}
+[0.000592] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.000627] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.000644] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.000659] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.000678] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.000696] (-) JobUnselected: {'identifier': 'pal_gripper_simulation'}
+[0.000708] (-) JobUnselected: {'identifier': 'pal_hey5'}
+[0.000721] (-) JobUnselected: {'identifier': 'pal_hey5_controller_configuration'}
+[0.000733] (-) JobUnselected: {'identifier': 'pal_hey5_description'}
+[0.000745] (-) JobUnselected: {'identifier': 'pal_navigation_cfg'}
+[0.000757] (-) JobUnselected: {'identifier': 'pal_navigation_cfg_bringup'}
+[0.000769] (-) JobUnselected: {'identifier': 'pal_navigation_cfg_params'}
+[0.000781] (-) JobUnselected: {'identifier': 'pal_robotiq_controller_configuration'}
+[0.000793] (-) JobUnselected: {'identifier': 'pal_robotiq_description'}
+[0.000805] (-) JobUnselected: {'identifier': 'pal_robotiq_gripper'}
+[0.000874] (-) JobUnselected: {'identifier': 'pal_urdf_utils'}
+[0.000891] (-) JobUnselected: {'identifier': 'play_motion2_msgs'}
+[0.000904] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.000917] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.000930] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.000942] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.000954] (-) JobUnselected: {'identifier': 'pmb2_laser_sensors'}
+[0.000966] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.000979] (-) JobUnselected: {'identifier': 'pmb2_rgbd_sensors'}
+[0.000990] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.001003] (-) JobUnselected: {'identifier': 'tiago_2dnav'}
+[0.001014] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.001026] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.001039] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.001050] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.001062] (-) JobUnselected: {'identifier': 'tiago_laser_sensors'}
+[0.001074] (-) JobUnselected: {'identifier': 'tiago_moveit_config'}
+[0.001086] (-) JobUnselected: {'identifier': 'tiago_navigation'}
+[0.001099] (-) JobUnselected: {'identifier': 'tiago_rgbd_sensors'}
+[0.001111] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.001123] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.001135] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.001149] (play_motion2) JobQueued: {'identifier': 'play_motion2', 'dependencies': OrderedDict([('play_motion2_msgs', '/home/hv/tiago_public_ws/install/play_motion2_msgs')])}
+[0.001167] (play_motion2) JobStarted: {'identifier': 'play_motion2'}
+[0.010900] (play_motion2) JobProgress: {'identifier': 'play_motion2', 'progress': 'cmake'}
+[0.011561] (play_motion2) Command: {'cmd': ['/usr/bin/cmake', '/home/hv/tiago_public_ws/src/play_motion2/play_motion2', '-DBUILD_TESTING=OFF', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hv/tiago_public_ws/install/play_motion2'], 'cwd': '/home/hv/tiago_public_ws/build/play_motion2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs/lib:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces/lib:/home/hv/Desktop/ros2_ws/install/draper_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hv'), ('TERMINFO', '/home/hv/.local/kitty.app/lib/kitty/terminfo'), ('OLDPWD', '/home/hv'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('KITTY_INSTALLATION_DIR', '/home/hv/.local/kitty.app/lib/kitty'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/hv/.local/share/applications/kitty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('KITTY_PID', '6983'), ('MANAGERPID', '2176'), ('SYSTEMD_EXEC_PID', '2361'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hv/hw2_690/install:/home/hv/ros2_ws/install:/home/hv/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hv'), ('JOURNAL_STREAM', '8:22597'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('KITTY_PUBLIC_KEY', '1:eqyhWY|TGW(fwYlwgZy)e$c<OslTbEMx^4C;AoeA'), ('USERNAME', 'hv'), ('TERM', 'xterm-kitty'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hv-OMEN-Laptop-15-en1xxx:@/tmp/.ICE-unix/2333,unix/hv-OMEN-Laptop-15-en1xxx:/tmp/.ICE-unix/2333'), ('INVOCATION_ID', 'a554dfa4e7ea4cf5b1a1bdd8501c6e03'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/kitty/2361-1-hv-OMEN-Laptop-15-en1xxx_TIME474688'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FLRT42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('KITTY_WINDOW_ID', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hv/tiago_public_ws/build/play_motion2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces/local/lib/python3.10/dist-packages:/home/hv/Desktop/ros2_ws/install/draper_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/hv/.local/kitty.app/share/man:'), ('CMAKE_PREFIX_PATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble')]), 'shell': False}
+[0.023592] (play_motion2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.099833] (-) TimerEvent: {}
+[0.121653] (play_motion2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.193116] (play_motion2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.195150] (play_motion2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199052] (play_motion2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.199896] (-) TimerEvent: {}
+[0.206008] (play_motion2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.215061] (play_motion2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299992] (-) TimerEvent: {}
+[0.321833] (play_motion2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.385469] (play_motion2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.400069] (-) TimerEvent: {}
+[0.405509] (play_motion2) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.425212] (play_motion2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.426238] (play_motion2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500175] (-) TimerEvent: {}
+[0.516551] (play_motion2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.548635] (play_motion2) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.557086] (play_motion2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.585673] (play_motion2) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.600250] (-) TimerEvent: {}
+[0.604909] (play_motion2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.684743] (play_motion2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[0.700332] (-) TimerEvent: {}
+[0.705210] (play_motion2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[0.720057] (play_motion2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[0.774052] (play_motion2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.800426] (-) TimerEvent: {}
+[0.822075] (play_motion2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.824331] (play_motion2) StdoutLine: {'line': b'-- Build files have been written to: /home/hv/tiago_public_ws/build/play_motion2\n'}
+[0.834356] (play_motion2) CommandEnded: {'returncode': 0}
+[0.835032] (play_motion2) JobProgress: {'identifier': 'play_motion2', 'progress': 'build'}
+[0.835744] (play_motion2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hv/tiago_public_ws/build/play_motion2', '--', '-j16', '-l16'], 'cwd': '/home/hv/tiago_public_ws/build/play_motion2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs/lib:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces/lib:/home/hv/Desktop/ros2_ws/install/draper_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hv'), ('TERMINFO', '/home/hv/.local/kitty.app/lib/kitty/terminfo'), ('OLDPWD', '/home/hv'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('KITTY_INSTALLATION_DIR', '/home/hv/.local/kitty.app/lib/kitty'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/hv/.local/share/applications/kitty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('KITTY_PID', '6983'), ('MANAGERPID', '2176'), ('SYSTEMD_EXEC_PID', '2361'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hv/hw2_690/install:/home/hv/ros2_ws/install:/home/hv/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hv'), ('JOURNAL_STREAM', '8:22597'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('KITTY_PUBLIC_KEY', '1:eqyhWY|TGW(fwYlwgZy)e$c<OslTbEMx^4C;AoeA'), ('USERNAME', 'hv'), ('TERM', 'xterm-kitty'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hv-OMEN-Laptop-15-en1xxx:@/tmp/.ICE-unix/2333,unix/hv-OMEN-Laptop-15-en1xxx:/tmp/.ICE-unix/2333'), ('INVOCATION_ID', 'a554dfa4e7ea4cf5b1a1bdd8501c6e03'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/kitty/2361-1-hv-OMEN-Laptop-15-en1xxx_TIME474688'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FLRT42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('KITTY_WINDOW_ID', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hv/tiago_public_ws/build/play_motion2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces/local/lib/python3.10/dist-packages:/home/hv/Desktop/ros2_ws/install/draper_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/hv/.local/kitty.app/share/man:'), ('CMAKE_PREFIX_PATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble')]), 'shell': False}
+[0.876565] (play_motion2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target play_motion2\x1b[0m\n'}
+[0.898167] (play_motion2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/play_motion2.dir/src/play_motion2/motion_loader.cpp.o\x1b[0m\n'}
+[0.900498] (-) TimerEvent: {}
+[0.900661] (play_motion2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/play_motion2.dir/src/play_motion2/motion_planner.cpp.o\x1b[0m\n'}
+[0.901540] (play_motion2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/play_motion2.dir/src/play_motion2/play_motion2.cpp.o\x1b[0m\n'}
+[1.000609] (-) TimerEvent: {}
+[1.100872] (-) TimerEvent: {}
+[1.201131] (-) TimerEvent: {}
+[1.301399] (-) TimerEvent: {}
+[1.401664] (-) TimerEvent: {}
+[1.501913] (-) TimerEvent: {}
+[1.602176] (-) TimerEvent: {}
+[1.702444] (-) TimerEvent: {}
+[1.802710] (-) TimerEvent: {}
+[1.902976] (-) TimerEvent: {}
+[2.003229] (-) TimerEvent: {}
+[2.103474] (-) TimerEvent: {}
+[2.203739] (-) TimerEvent: {}
+[2.304022] (-) TimerEvent: {}
+[2.404298] (-) TimerEvent: {}
+[2.504556] (-) TimerEvent: {}
+[2.604912] (-) TimerEvent: {}
+[2.705200] (-) TimerEvent: {}
+[2.806144] (-) TimerEvent: {}
+[2.906420] (-) TimerEvent: {}
+[3.006691] (-) TimerEvent: {}
+[3.106973] (-) TimerEvent: {}
+[3.207247] (-) TimerEvent: {}
+[3.308103] (-) TimerEvent: {}
+[3.408391] (-) TimerEvent: {}
+[3.508680] (-) TimerEvent: {}
+[3.608963] (-) TimerEvent: {}
+[3.709233] (-) TimerEvent: {}
+[3.809497] (-) TimerEvent: {}
+[3.909766] (-) TimerEvent: {}
+[4.010044] (-) TimerEvent: {}
+[4.110314] (-) TimerEvent: {}
+[4.210589] (-) TimerEvent: {}
+[4.310865] (-) TimerEvent: {}
+[4.411140] (-) TimerEvent: {}
+[4.511412] (-) TimerEvent: {}
+[4.611672] (-) TimerEvent: {}
+[4.711944] (-) TimerEvent: {}
+[4.812226] (-) TimerEvent: {}
+[4.912513] (-) TimerEvent: {}
+[5.012803] (-) TimerEvent: {}
+[5.113086] (-) TimerEvent: {}
+[5.213360] (-) TimerEvent: {}
+[5.313633] (-) TimerEvent: {}
+[5.413910] (-) TimerEvent: {}
+[5.514181] (-) TimerEvent: {}
+[5.614448] (-) TimerEvent: {}
+[5.714715] (-) TimerEvent: {}
+[5.814992] (-) TimerEvent: {}
+[5.915238] (-) TimerEvent: {}
+[6.015521] (-) TimerEvent: {}
+[6.115799] (-) TimerEvent: {}
+[6.216075] (-) TimerEvent: {}
+[6.316331] (-) TimerEvent: {}
+[6.416594] (-) TimerEvent: {}
+[6.516870] (-) TimerEvent: {}
+[6.617122] (-) TimerEvent: {}
+[6.717384] (-) TimerEvent: {}
+[6.817646] (-) TimerEvent: {}
+[6.917865] (-) TimerEvent: {}
+[7.018141] (-) TimerEvent: {}
+[7.118400] (-) TimerEvent: {}
+[7.218668] (-) TimerEvent: {}
+[7.319100] (-) TimerEvent: {}
+[7.419386] (-) TimerEvent: {}
+[7.520143] (-) TimerEvent: {}
+[7.620409] (-) TimerEvent: {}
+[7.720655] (-) TimerEvent: {}
+[7.820911] (-) TimerEvent: {}
+[7.921198] (-) TimerEvent: {}
+[8.021458] (-) TimerEvent: {}
+[8.121715] (-) TimerEvent: {}
+[8.221996] (-) TimerEvent: {}
+[8.322900] (-) TimerEvent: {}
+[8.423146] (-) TimerEvent: {}
+[8.523403] (-) TimerEvent: {}
+[8.623661] (-) TimerEvent: {}
+[8.723950] (-) TimerEvent: {}
+[8.824212] (-) TimerEvent: {}
+[8.924454] (-) TimerEvent: {}
+[9.024689] (-) TimerEvent: {}
+[9.124970] (-) TimerEvent: {}
+[9.225233] (-) TimerEvent: {}
+[9.325499] (-) TimerEvent: {}
+[9.425780] (-) TimerEvent: {}
+[9.526067] (-) TimerEvent: {}
+[9.626335] (-) TimerEvent: {}
+[9.726603] (-) TimerEvent: {}
+[9.826870] (-) TimerEvent: {}
+[9.927123] (-) TimerEvent: {}
+[10.027376] (-) TimerEvent: {}
+[10.127624] (-) TimerEvent: {}
+[10.227877] (-) TimerEvent: {}
+[10.328127] (-) TimerEvent: {}
+[10.428384] (-) TimerEvent: {}
+[10.528643] (-) TimerEvent: {}
+[10.628918] (-) TimerEvent: {}
+[10.729174] (-) TimerEvent: {}
+[10.829433] (-) TimerEvent: {}
+[10.929695] (-) TimerEvent: {}
+[11.029967] (-) TimerEvent: {}
+[11.130220] (-) TimerEvent: {}
+[11.230473] (-) TimerEvent: {}
+[11.330728] (-) TimerEvent: {}
+[11.430996] (-) TimerEvent: {}
+[11.531252] (-) TimerEvent: {}
+[11.631510] (-) TimerEvent: {}
+[11.731767] (-) TimerEvent: {}
+[11.832035] (-) TimerEvent: {}
+[11.932291] (-) TimerEvent: {}
+[12.032937] (-) TimerEvent: {}
+[12.134380] (-) TimerEvent: {}
+[12.235048] (-) TimerEvent: {}
+[12.335964] (-) TimerEvent: {}
+[12.436240] (-) TimerEvent: {}
+[12.536492] (-) TimerEvent: {}
+[12.636747] (-) TimerEvent: {}
+[12.737010] (-) TimerEvent: {}
+[12.837263] (-) TimerEvent: {}
+[12.937514] (-) TimerEvent: {}
+[13.037766] (-) TimerEvent: {}
+[13.138029] (-) TimerEvent: {}
+[13.238281] (-) TimerEvent: {}
+[13.338535] (-) TimerEvent: {}
+[13.438789] (-) TimerEvent: {}
+[13.539055] (-) TimerEvent: {}
+[13.639309] (-) TimerEvent: {}
+[13.739563] (-) TimerEvent: {}
+[13.839827] (-) TimerEvent: {}
+[13.940535] (-) TimerEvent: {}
+[14.040791] (-) TimerEvent: {}
+[14.141053] (-) TimerEvent: {}
+[14.241309] (-) TimerEvent: {}
+[14.341565] (-) TimerEvent: {}
+[14.441831] (-) TimerEvent: {}
+[14.542085] (-) TimerEvent: {}
+[14.642339] (-) TimerEvent: {}
+[14.742593] (-) TimerEvent: {}
+[14.842858] (-) TimerEvent: {}
+[14.943120] (-) TimerEvent: {}
+[15.043383] (-) TimerEvent: {}
+[15.143668] (-) TimerEvent: {}
+[15.243948] (-) TimerEvent: {}
+[15.344218] (-) TimerEvent: {}
+[15.444491] (-) TimerEvent: {}
+[15.544784] (-) TimerEvent: {}
+[15.618900] (play_motion2) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libplay_motion2.so\x1b[0m\n'}
+[15.644871] (-) TimerEvent: {}
+[15.745131] (-) TimerEvent: {}
+[15.845404] (-) TimerEvent: {}
+[15.945676] (-) TimerEvent: {}
+[16.045962] (-) TimerEvent: {}
+[16.146234] (-) TimerEvent: {}
+[16.246508] (-) TimerEvent: {}
+[16.346752] (-) TimerEvent: {}
+[16.447483] (-) TimerEvent: {}
+[16.550138] (-) TimerEvent: {}
+[16.650903] (-) TimerEvent: {}
+[16.719061] (play_motion2) StdoutLine: {'line': b'[ 40%] Built target play_motion2\n'}
+[16.729192] (play_motion2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[16.744839] (play_motion2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/play_motion2/client.cpp.o\x1b[0m\n'}
+[16.750970] (-) TimerEvent: {}
+[16.851218] (-) TimerEvent: {}
+[16.951477] (-) TimerEvent: {}
+[17.051732] (-) TimerEvent: {}
+[17.152005] (-) TimerEvent: {}
+[17.252267] (-) TimerEvent: {}
+[17.352520] (-) TimerEvent: {}
+[17.452786] (-) TimerEvent: {}
+[17.553057] (-) TimerEvent: {}
+[17.653323] (-) TimerEvent: {}
+[17.753597] (-) TimerEvent: {}
+[17.853871] (-) TimerEvent: {}
+[17.954413] (-) TimerEvent: {}
+[18.054685] (-) TimerEvent: {}
+[18.154965] (-) TimerEvent: {}
+[18.255228] (-) TimerEvent: {}
+[18.355498] (-) TimerEvent: {}
+[18.455800] (-) TimerEvent: {}
+[18.556078] (-) TimerEvent: {}
+[18.656342] (-) TimerEvent: {}
+[18.756608] (-) TimerEvent: {}
+[18.856875] (-) TimerEvent: {}
+[18.957137] (-) TimerEvent: {}
+[19.057415] (-) TimerEvent: {}
+[19.157691] (-) TimerEvent: {}
+[19.257970] (-) TimerEvent: {}
+[19.358227] (-) TimerEvent: {}
+[19.458471] (-) TimerEvent: {}
+[19.558730] (-) TimerEvent: {}
+[19.658995] (-) TimerEvent: {}
+[19.759252] (-) TimerEvent: {}
+[19.859511] (-) TimerEvent: {}
+[19.959763] (-) TimerEvent: {}
+[20.060033] (-) TimerEvent: {}
+[20.160284] (-) TimerEvent: {}
+[20.260537] (-) TimerEvent: {}
+[20.360788] (-) TimerEvent: {}
+[20.461051] (-) TimerEvent: {}
+[20.561304] (-) TimerEvent: {}
+[20.661556] (-) TimerEvent: {}
+[20.762045] (-) TimerEvent: {}
+[20.863949] (-) TimerEvent: {}
+[20.965725] (-) TimerEvent: {}
+[21.067201] (-) TimerEvent: {}
+[21.167467] (-) TimerEvent: {}
+[21.267873] (-) TimerEvent: {}
+[21.330599] (play_motion2) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libclient.a\x1b[0m\n'}
+[21.367983] (-) TimerEvent: {}
+[21.437027] (play_motion2) StdoutLine: {'line': b'[ 60%] Built target client\n'}
+[21.455564] (play_motion2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/play_motion2_node.dir/src/play_motion2_main.cpp.o\x1b[0m\n'}
+[21.455725] (play_motion2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/run_motion.dir/src/run_motion.cpp.o\x1b[0m\n'}
+[21.468066] (-) TimerEvent: {}
+[21.568305] (-) TimerEvent: {}
+[21.668565] (-) TimerEvent: {}
+[21.768838] (-) TimerEvent: {}
+[21.869741] (-) TimerEvent: {}
+[21.970017] (-) TimerEvent: {}
+[22.070289] (-) TimerEvent: {}
+[22.170556] (-) TimerEvent: {}
+[22.270838] (-) TimerEvent: {}
+[22.371284] (-) TimerEvent: {}
+[22.471555] (-) TimerEvent: {}
+[22.571832] (-) TimerEvent: {}
+[22.672109] (-) TimerEvent: {}
+[22.772382] (-) TimerEvent: {}
+[22.872651] (-) TimerEvent: {}
+[22.972903] (-) TimerEvent: {}
+[23.073169] (-) TimerEvent: {}
+[23.173449] (-) TimerEvent: {}
+[23.273722] (-) TimerEvent: {}
+[23.316249] (play_motion2) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable run_motion\x1b[0m\n'}
+[23.373847] (-) TimerEvent: {}
+[23.474104] (-) TimerEvent: {}
+[23.574351] (-) TimerEvent: {}
+[23.674615] (-) TimerEvent: {}
+[23.774878] (-) TimerEvent: {}
+[23.875138] (-) TimerEvent: {}
+[23.975399] (-) TimerEvent: {}
+[24.053149] (play_motion2) StdoutLine: {'line': b'[ 90%] Built target run_motion\n'}
+[24.075492] (-) TimerEvent: {}
+[24.175747] (-) TimerEvent: {}
+[24.276429] (-) TimerEvent: {}
+[24.376735] (-) TimerEvent: {}
+[24.477005] (-) TimerEvent: {}
+[24.577259] (-) TimerEvent: {}
+[24.677516] (-) TimerEvent: {}
+[24.777863] (-) TimerEvent: {}
+[24.878127] (-) TimerEvent: {}
+[24.978380] (-) TimerEvent: {}
+[25.078645] (-) TimerEvent: {}
+[25.178904] (-) TimerEvent: {}
+[25.279164] (-) TimerEvent: {}
+[25.379427] (-) TimerEvent: {}
+[25.479689] (-) TimerEvent: {}
+[25.579957] (-) TimerEvent: {}
+[25.680210] (-) TimerEvent: {}
+[25.780462] (-) TimerEvent: {}
+[25.880716] (-) TimerEvent: {}
+[25.980970] (-) TimerEvent: {}
+[26.081222] (-) TimerEvent: {}
+[26.181468] (-) TimerEvent: {}
+[26.281708] (-) TimerEvent: {}
+[26.381954] (-) TimerEvent: {}
+[26.482213] (-) TimerEvent: {}
+[26.582455] (-) TimerEvent: {}
+[26.682692] (-) TimerEvent: {}
+[26.782944] (-) TimerEvent: {}
+[26.883191] (-) TimerEvent: {}
+[26.983457] (-) TimerEvent: {}
+[27.083693] (-) TimerEvent: {}
+[27.183950] (-) TimerEvent: {}
+[27.284182] (-) TimerEvent: {}
+[27.384437] (-) TimerEvent: {}
+[27.484676] (-) TimerEvent: {}
+[27.568138] (play_motion2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable play_motion2_node\x1b[0m\n'}
+[27.584778] (-) TimerEvent: {}
+[27.685027] (-) TimerEvent: {}
+[27.785281] (-) TimerEvent: {}
+[27.885537] (-) TimerEvent: {}
+[27.985830] (-) TimerEvent: {}
+[28.086110] (-) TimerEvent: {}
+[28.186377] (-) TimerEvent: {}
+[28.246026] (play_motion2) StdoutLine: {'line': b'[100%] Built target play_motion2_node\n'}
+[28.256832] (play_motion2) CommandEnded: {'returncode': 0}
+[28.286466] (-) TimerEvent: {}
+[28.295752] (play_motion2) JobProgress: {'identifier': 'play_motion2', 'progress': 'install'}
+[28.303610] (play_motion2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hv/tiago_public_ws/build/play_motion2'], 'cwd': '/home/hv/tiago_public_ws/build/play_motion2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs/lib:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces/lib:/home/hv/Desktop/ros2_ws/install/draper_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hv'), ('TERMINFO', '/home/hv/.local/kitty.app/lib/kitty/terminfo'), ('OLDPWD', '/home/hv'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('KITTY_INSTALLATION_DIR', '/home/hv/.local/kitty.app/lib/kitty'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/hv/.local/share/applications/kitty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('KITTY_PID', '6983'), ('MANAGERPID', '2176'), ('SYSTEMD_EXEC_PID', '2361'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hv/hw2_690/install:/home/hv/ros2_ws/install:/home/hv/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hv'), ('JOURNAL_STREAM', '8:22597'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('KITTY_PUBLIC_KEY', '1:eqyhWY|TGW(fwYlwgZy)e$c<OslTbEMx^4C;AoeA'), ('USERNAME', 'hv'), ('TERM', 'xterm-kitty'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hv-OMEN-Laptop-15-en1xxx:@/tmp/.ICE-unix/2333,unix/hv-OMEN-Laptop-15-en1xxx:/tmp/.ICE-unix/2333'), ('INVOCATION_ID', 'a554dfa4e7ea4cf5b1a1bdd8501c6e03'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/kitty/2361-1-hv-OMEN-Laptop-15-en1xxx_TIME474688'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FLRT42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('KITTY_WINDOW_ID', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hv/tiago_public_ws/build/play_motion2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs/local/lib/python3.10/dist-packages:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces/local/lib/python3.10/dist-packages:/home/hv/Desktop/ros2_ws/install/draper_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/hv/.local/kitty.app/share/man:'), ('CMAKE_PREFIX_PATH', '/home/hv/tiago_public_ws/install/play_motion2_msgs:/home/hv/Desktop/ros2_ws/install/ghost_bms_interfaces:/home/hv/Desktop/ros2_ws/install/draper_msgs:/opt/ros/humble')]), 'shell': False}
+[28.310635] (play_motion2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.311054] (play_motion2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.311423] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/include/play_motion2/client.hpp\n'}
+[28.319430] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/include/play_motion2/motion_loader.hpp\n'}
+[28.326987] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/include/play_motion2/motion_planner.hpp\n'}
+[28.334408] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/include/play_motion2/play_motion2.hpp\n'}
+[28.342338] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/include/play_motion2/types.hpp\n'}
+[28.350181] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/environment/library_path.sh\n'}
+[28.358357] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/environment/library_path.dsv\n'}
+[28.366555] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/lib/libplay_motion2.so\n'}
+[28.374431] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/lib/libclient.a\n'}
+[28.382400] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/lib/play_motion2/play_motion2_node\n'}
+[28.386544] (-) TimerEvent: {}
+[28.390240] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/lib/play_motion2/run_motion\n'}
+[28.398678] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/config/motion_planner_config.yaml\n'}
+[28.406672] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/launch/play_motion2.launch.py\n'}
+[28.414685] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/ament_index/resource_index/package_run_dependencies/play_motion2\n'}
+[28.422321] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/ament_index/resource_index/parent_prefix_path/play_motion2\n'}
+[28.430011] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/environment/ament_prefix_path.sh\n'}
+[28.438101] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/environment/ament_prefix_path.dsv\n'}
+[28.446346] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/environment/path.sh\n'}
+[28.454257] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/environment/path.dsv\n'}
+[28.462093] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/local_setup.bash\n'}
+[28.470108] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/local_setup.sh\n'}
+[28.477699] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/local_setup.zsh\n'}
+[28.485611] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/local_setup.dsv\n'}
+[28.486626] (-) TimerEvent: {}
+[28.493434] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/package.dsv\n'}
+[28.502005] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/ament_index/resource_index/packages/play_motion2\n'}
+[28.510081] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.517489] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.525566] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.533592] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/play_motion2Config.cmake\n'}
+[28.541367] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/cmake/play_motion2Config-version.cmake\n'}
+[28.549158] (play_motion2) StdoutLine: {'line': b'-- Symlinking: /home/hv/tiago_public_ws/install/play_motion2/share/play_motion2/package.xml\n'}
+[28.559056] (play_motion2) CommandEnded: {'returncode': 0}
+[28.586714] (-) TimerEvent: {}
+[28.612335] (play_motion2) JobEnded: {'identifier': 'play_motion2', 'rc': 0}
+[28.612771] (-) EventReactorShutdown: {}

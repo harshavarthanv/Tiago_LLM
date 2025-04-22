@@ -1,0 +1,72 @@
+[0.292s] Invoking command in '/home/hv/tiago_public_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hv/tiago_public_ws/src/urdf_test -DCMAKE_INSTALL_PREFIX=/home/hv/tiago_public_ws/install/urdf_test
+[0.400s] -- The C compiler identification is GNU 11.4.0
+[0.497s] -- The CXX compiler identification is GNU 11.4.0
+[0.506s] -- Detecting C compiler ABI info
+[0.600s] -- Detecting C compiler ABI info - done
+[0.607s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.607s] -- Detecting C compile features
+[0.607s] -- Detecting C compile features - done
+[0.610s] -- Detecting CXX compiler ABI info
+[0.724s] -- Detecting CXX compiler ABI info - done
+[0.735s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.735s] -- Detecting CXX compile features
+[0.736s] -- Detecting CXX compile features - done
+[0.740s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.979s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.217s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.850s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.859s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.861s] -- Added test 'lint_cmake' to check CMake code style
+[1.862s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.866s] -- Added test 'xmllint' to check XML markup files
+[1.868s] -- Configuring done
+[1.872s] -- Generating done
+[1.873s] -- Build files have been written to: /home/hv/tiago_public_ws/build/urdf_test
+[1.879s] Invoked command in '/home/hv/tiago_public_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hv/tiago_public_ws/src/urdf_test -DCMAKE_INSTALL_PREFIX=/home/hv/tiago_public_ws/install/urdf_test
+[1.881s] Invoking command in '/home/hv/tiago_public_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hv/tiago_public_ws/build/urdf_test -- -j16 -l16
+[1.952s] Built target ament_cmake_python_copy_urdf_test
+[2.216s] running egg_info
+[2.217s] creating urdf_test.egg-info
+[2.217s] writing urdf_test.egg-info/PKG-INFO
+[2.217s] writing dependency_links to urdf_test.egg-info/dependency_links.txt
+[2.218s] writing top-level names to urdf_test.egg-info/top_level.txt
+[2.218s] writing manifest file 'urdf_test.egg-info/SOURCES.txt'
+[2.221s] reading manifest file 'urdf_test.egg-info/SOURCES.txt'
+[2.222s] writing manifest file 'urdf_test.egg-info/SOURCES.txt'
+[2.253s] Built target ament_cmake_python_build_urdf_test_egg
+[2.266s] Invoked command in '/home/hv/tiago_public_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hv/tiago_public_ws/build/urdf_test -- -j16 -l16
+[2.294s] Invoking command in '/home/hv/tiago_public_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hv/tiago_public_ws/build/urdf_test
+[2.304s] -- Install configuration: ""
+[2.304s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/lib/urdf_test/test_urdf.py
+[2.305s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/environment/pythonpath.sh
+[2.305s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/environment/pythonpath.dsv
+[2.305s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.1.0-py3.10.egg-info
+[2.305s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.1.0-py3.10.egg-info/dependency_links.txt
+[2.307s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.1.0-py3.10.egg-info/top_level.txt
+[2.307s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.1.0-py3.10.egg-info/SOURCES.txt
+[2.307s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.1.0-py3.10.egg-info/PKG-INFO
+[2.307s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test
+[2.307s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/__init__.py
+[2.307s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/description_test.py
+[2.307s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/xacro_test.py
+[2.338s] Listing '/home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test'...
+[2.338s] Compiling '/home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/__init__.py'...
+[2.338s] Compiling '/home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/description_test.py'...
+[2.338s] Compiling '/home/hv/tiago_public_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/xacro_test.py'...
+[2.345s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/ament_index/resource_index/package_run_dependencies/urdf_test
+[2.346s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/ament_index/resource_index/parent_prefix_path/urdf_test
+[2.346s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.sh
+[2.346s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.dsv
+[2.346s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/environment/path.sh
+[2.346s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/environment/path.dsv
+[2.346s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/local_setup.bash
+[2.346s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/local_setup.sh
+[2.346s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/local_setup.zsh
+[2.346s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/local_setup.dsv
+[2.347s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/package.dsv
+[2.347s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/ament_index/resource_index/packages/urdf_test
+[2.347s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.347s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig.cmake
+[2.347s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig-version.cmake
+[2.348s] -- Installing: /home/hv/tiago_public_ws/install/urdf_test/share/urdf_test/package.xml
+[2.352s] Invoked command in '/home/hv/tiago_public_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hv/tiago_public_ws/build/urdf_test
